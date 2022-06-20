@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+}
+
+/* FORMULAIRE */
+
+#formulaire{
+    height: 100vh;
+    background: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+#formconnect{
+    display: grid;
+    border: solid;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    padding: 5% 10%;
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.144);
+    cursor: default;
+}
+
+#formconnect input{
+    border-style: none none solid none;
+    border-color: black;
+    outline: none;
+    background: none;
+    color: white;
+    font-weight: bold;
+}
+
+#formconnect input::placeholder{
+    color: rgba(255, 255, 255, 0.555);
+}
+
+.compte{
+    width: 94%;
+    padding: 15px;
+    margin-bottom: 70px;
+    cursor: text;
+}
+
+#boutonconnect{
+    display: flex;
+    justify-content: end;
+}
+
+#connexion{
+    width: 30%;
+    padding: 5px;
+}
+
+#connexion:hover{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    cursor: pointer;
+}
+
+/* NAVBAR */
+
+nav{
+    position: fixed;
+    width: 100%;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+    margin-top: 0;
+
+}
+
+nav ul li{
+    list-style-type: none;
+    padding: 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+/* BODY ACCUEIL */
+
+#body{
+    background: url(../images/background.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+#moi{
+    width: 900px;
+    padding: 5% 0%;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    background-color: rgba(0, 0, 0, 0.144);
+    border: solid;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+#moi img{
+    height: 15rem;
+    border-radius: 100%;
+    border: solid white 5px;
+}
+
+#textmoi{
+    width: 50%;
+    margin-top: 3%;
+}
+
+#textmoi p{
+    margin-top: 5%;
+}
+
+/* -webkit-backdrop-filter: blur(15px); */
+
