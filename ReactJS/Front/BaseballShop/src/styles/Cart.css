@@ -1,0 +1,61 @@
+.lmj-cart {
+	color: white;
+	background-color: #b53131;
+	padding: 32px;
+	top: 0;
+	left: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 250px;
+	position: absolute;
+	z-index: 1000;
+	text-shadow: 0px 2px 0px #000000,
+	0px 0px 10px rgba(0,0,0,0.15);
+	border-style: none solid solid none;
+	border-color: rgba(0, 0, 0, 0.415);
+	box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.lmj-cart-add-button {
+	margin-left: 32px;
+	cursor: pointer;
+}
+
+.lmj-cart-toggle-button {
+	background: none;
+	outline: none;
+	border: none;
+	font-weight: 600;
+	cursor: pointer;
+	padding: 0;
+	color: white;
+	top: 0;
+	right: 10px;
+	position: absolute;
+}
+
+.lmj-cart-toggle-buttons{
+	background: none;
+	outline: none;
+	border: none;
+	font-weight: 600;
+	cursor: pointer;
+	padding: 0;
+	color: white;
+}
+
+.lmj-cart-closed{
+	position: absolute;
+	left: 40px;
+}
+
+.lmj-cart-closed > button {
+	color: black;
+}
+
+.boutonvider{
+	background: white;
+	margin: 7px;
+	font-weight: bold;
+}

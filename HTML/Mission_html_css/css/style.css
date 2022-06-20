@@ -1,0 +1,24 @@
+p {
+    color: #630303;
+    font-weight: bolder;
+    margin-left: 0.1cm;
+    margin-right: 0.1cm;
+}
+h3 {
+    font-style: italic;
+    color: #0d5519;
+}
+h1 {
+    font-style: oblique;
+    color: #630303;
+}
+h2 {
+    font-style: italic;
+    color: #0d5519;
+}
+.background {
+    width: 900px;
+    height: 960px;
+    background:"../img/ciel.png" no-repeat;
+    background-size: cover;
+}

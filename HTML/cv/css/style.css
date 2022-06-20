@@ -1,0 +1,82 @@
+/*Page*/
+
+body{
+    background:no-repeat url(/cv/images/fondcv.png);
+    background-size: 100%;
+    height: 1810px;
+    max-width: auto;
+    font-size: 140%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 2%;
+}
+
+#gauche{
+    float: left;
+}
+
+#droite{
+    float: right;
+    margin-top: 25%;
+    margin-right: 2%;
+}
+
+/*Moi*/
+
+#moi h2{
+    color: #93A643; 
+}
+
+/*Information*/
+
+#information{
+    margin-top: 10%;
+}
+
+/*Presentation*/
+
+#presentation{
+    margin-top: 10%;
+    color: #429191;
+}
+
+/*Competence*/
+
+#savoirfaire{
+    float: left;
+}
+#savoiretre{
+    float: right;
+}
+
+#savoirfaire h2{
+    color: #429191;
+}
+
+#savoiretre h2{
+    color: #429191;
+}
+
+/*Reseaux*/
+
+#reseau{
+    margin-top: 30%;
+}
+
+#reseau img{
+    margin-left: 11% ;
+}
+
+/*Exprerience*/
+
+#droite h2{
+    color: #429191;
+}
+
+#droite h3{
+    color: #93A643;
+    text-decoration: underline;
+}
+
+#droite p{
+    font-style: italic;
+}

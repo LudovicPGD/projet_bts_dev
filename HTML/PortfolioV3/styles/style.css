@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+body{
+    margin: 0;
+    cursor: default;
+    height: 2700px;
+}
+
+#body{
+    background: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+
+#body2{
+    width: 100%;
+    height: 3000px;
+    background-color: rgba(4,19,42,255);
+    color: whitesmoke;
+    margin: 0;
+}
+
+#contenue{
+    font-family: "Lilita One", cursive;
+}
+
+/*Header*/
+header li, a{
+    font-family: "Lilita One", cursive;
+    font-weight: 500;
+    font-size: 15px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10%;
+}
+
+header p{
+    cursor: default;
+    font-size: 25px;
+    color: #edf0f1;
+    font-family: "Lilita One", cursive;
+}
+
+#sousheader{
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    font-family: "Lilita One", cursive;
+    margin-top: 15%;
+}
+
+#sousheader a{
+    font-size: 800%;
+    margin: 0;
+    color: #edf0f1;
+    
+}
+
+#sousheader a:hover{
+    text-shadow: 0.1em 0.1em 0.3em black;
+}
+
+/*NavBar*/
+nav ul{
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+nav li, p, a{
+    transition: all 0.3s ease 0s;
+}
+
+nav a:hover{
+    cursor: pointer;
+    text-shadow: 0.1em 0.1em 0.9em black;
+}
+
+/*Cadre*/
+#cadre{
+    width: 100%;
+    height: 2000px;
+    background-color: rgba(4,19,42,255);
+    color: whitesmoke;
+    margin-top: 48%;
+}
+
+/*Presentation*/
+#presentation{
+    padding: 50px 30px;
+    display: flex;
+    justify-content: center;
+    gap: 5px 15%;
+}
+
+#presentation img{
+    height: 100%;
+    width: 25%;
+}
+
+#presentation pre{
+    font-size: 20px;
+    font-family: "Lilita One", cursive;
+}
+
+/*Ecole*/
+#ecole{
+    padding: 50px 50px;
+    display:flex;
+    justify-content: space-evenly;
+    margin: 0;
+}
+
+#ecole pre{
+    font-size: 20px;
+    font-family: "Lilita One", cursive;
+    
+}
+
+#ecole img{
+    height: 100%;
+    width: 35%;
+}
+
+/*Entreprise*/
+#entreprise{
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#entreprise img{
+    height: 100%;
+    width: 30%;
+}
+
+#entreprise pre{
+    font-size: 20px;
+    font-family: "Lilita One", cursive;
+}

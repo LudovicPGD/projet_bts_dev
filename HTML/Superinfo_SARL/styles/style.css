@@ -1,0 +1,92 @@
+.carousel-item{
+    height: 30rem;
+    width: 100%
+}
+
+.textebox{
+    display: flex;
+    gap: 15%;
+}
+
+.textebox img{
+    height: 80%;
+}
+
+.texte{
+    padding-left: 13%;
+}
+
+.carte{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}
+
+.carte .card{
+    border-radius: 5px 5px 5px 5px;
+}
+
+.formcarte form{
+    width: 700px;
+}
+
+.formcarte{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+
+.footer
+{
+    background-color: rgb(54, 54, 54);
+    padding: 2%;
+}
+
+.footer .triple
+{
+    display: flex;
+}
+
+.footer .un
+{
+    width: 20%;
+}
+.footer .deux
+{
+    width: 40%;
+}
+.footer .trois
+{
+    width: 40%;
+    padding-left: 20%;
+}
+
+.footer .sign
+{
+    text-align: center;
+
+}
+
+.footer p
+{
+    margin: 0;
+    color: white;
+}
+
+.footer h3
+{
+    color: white;
+    font-size: 130%;
+}
+
+.footer hr
+{
+    color: white;
+    width: 40%;
+    height: 5px;
+}
+
+.footer li
+{
+    color: white;
+}

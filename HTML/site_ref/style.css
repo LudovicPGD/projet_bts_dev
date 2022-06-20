@@ -1,0 +1,136 @@
+/*Police d'écriture*/
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Anton&display=swap%27');
+
+*{
+    font-family: 'Acme', sans-serif;
+}
+
+/*Taille de la page*/
+body {
+    margin: 0;
+    height: 2000px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+/*NavBar*/
+nav ul {
+list-style-type: none;
+overflow: hidden;
+background-color: #333;
+}
+
+nav li {
+display: inline-block;
+}
+  
+nav li a {
+display: block;
+color: rgb(255, 255, 255);
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+
+/*Page d'accueil*/
+
+/* TOP */
+header {
+    background-image: url(image/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+}
+
+#top {
+    text-align: center;
+    height: 38%;
+}
+
+/*Texte*/
+.boxtop {
+    backdrop-filter: blur(6px);
+}
+
+.desc {
+    margin-top: 20%;
+    font-size: 130%;
+}
+
+.desc p {
+    margin-top: 10%;
+}
+
+/*Présentation Lycée*/
+#texte1 {
+    color: rgb(255, 255, 255);
+    height: 30%;
+    text-align: center;
+    background-image: url(image/ecole.jpg);
+    margin-bottom: 2%;
+}
+
+#texte1 h1{
+    margin-top: 0;
+}
+
+.prst {
+    background-color: hsla(0, 0%, 0%, 0.58);
+    padding-top: 1%;
+    height: 97.5%;
+}
+
+/*BLOC SISR & SIO*/
+#option {
+    display:flex;
+    justify-content:space-evenly;
+    margin: 50px 70px;
+}
+
+
+/*2nd Partie*/
+
+/*Mise en forme*/
+#texte {
+    background-color: whitesmoke;
+    display:flex;
+    justify-content:space-evenly;
+    text-align: center;
+    text-indent: 20px;
+    line-height: 90px;
+    margin-bottom: 2%;
+}
+
+/*Image*/
+#texte img {
+    width: 15%;
+    height: 10%;
+}
+
+/*3ème Partie*/
+/*Formations*/
+#formation {
+    padding-top: 1%;
+    color: rgb(255, 255, 255);
+    background-color: hsla(0, 0%, 0%, 0.58);
+
+}
+
+/*Liste + image*/
+.elliste{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*Liste des différentes filières*/
+.liste{
+    text-indent: 20px;
+    line-height: 70px; 
+}
+
+.formationimg img{
+    margin-top: 3%;
+    height: 75%;
+    width: 100%;
+}

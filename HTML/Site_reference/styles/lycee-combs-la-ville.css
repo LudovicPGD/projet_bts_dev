@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Anton&display=swap%27');
+
+body{
+    margin: 0;
+    font-family: 'Acme', sans-serif;
+    width: 100%;
+    z-index: 10;
+}
+
+#body{
+    width: 100%;
+}
+
+/*NavBar*/
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding: 20px 0px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+nav li{
+    list-style-type: none;
+}
+
+nav li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav li a:hover{
+    border-style: none none solid none;
+    border-radius: 5px;
+}
+
+/*Accueil*/
+
+#accueil{
+    background: url(../images/bts-sio-slam-sisr.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: padding-box;
+    background-attachment: fixed;
+    padding-top: 18%;
+    height: 35rem;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 130%; 
+    position: static;  
+}
+
+#accueil .txtacc{
+    height: 300px;
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.308); 
+    border-radius: 20px;   
+}
+
+#accueil .txtacc h1{
+    line-height: 100px;
+}
+
+#accueil .txtacc p{
+    line-height: 150px;
+}
+
+/* Ecole */
+
+#ecole{
+    background: url(../images/lycee-jacques-prevert.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    color: white;
+    border-style: solid none none none;
+    position: static;
+}
+
+#cadreecole{
+    background-color: rgba(0, 0, 0, 0.541);
+    height: 100%;
+}
+
+#cadreecole p{
+    padding-top: 5%;
+    display: grid;
+    justify-content: center;
+}
+
+#txtecole{
+    display: grid;
+    justify-content: center;
+    padding-top: 3%;
+}
+
+#txtecole li{
+    list-style-type: none;
+}
+
+#txtecole li::before{
+    content: "🔸";
+    padding-right: 8px;
+}
+
+
+#txtoption{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 20px;
+}
+
+.sisr{
+    padding-right: 10px;
+}
+
+/*Principal*/
+

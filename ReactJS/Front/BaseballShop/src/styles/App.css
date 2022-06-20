@@ -1,0 +1,10 @@
+.body{
+    background: url(../assets/baseball.png);
+    background-size: cover;
+    height: 100%;
+}
+
+.boutoninscription{
+    position: absolute;
+    left: 120px;
+}

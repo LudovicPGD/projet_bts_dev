@@ -1,0 +1,177 @@
+.inscription-buttons{
+    background: none;
+	outline: none;
+	border: none;
+	cursor: pointer;  
+    color: black;
+}
+
+.inscription-croix{
+    background: none;
+	outline: none;
+	border: none;
+	cursor: pointer;
+    color: black;
+}
+
+.form-insciption{
+    background-color: #b53131;
+    height: 55%;
+    width: 50%;
+    top: 23%;
+    left: 25%;
+    position: fixed;
+    border-style: solid;
+	border-color: rgba(0, 0, 0, 0.415);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+#form-back{
+    visibility: hidden;
+    background-color: rgba(0, 0, 0, 0.49);
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-shadow: 0px 2px 0px #000000,
+	0px 0px 10px rgba(0,0,0,0.15)
+}
+
+#form-back:target{
+    visibility: visible;
+    overflow: visible;
+}
+
+.forminscrdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.forminscr{
+    display: grid;
+    padding: 5% 10%;
+    height: 35vh;
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.144);
+    cursor: default;
+}
+
+.forminscr input{
+    border-style: none none solid none;
+    border-color: black;
+    outline: none;
+    background: none;
+    color: white;
+    font-weight: bold;
+}
+
+.forminscr input::placeholder{
+    color: rgba(255, 255, 255, 0.555);
+
+}
+
+.compte{
+    width: 94%;
+    padding: 15px;
+    margin-bottom: 70px;
+    cursor: text;
+}
+
+.boutoninscrdiv{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.boutoninscr{
+    width: 30%;
+    padding: 5px;
+    text-shadow: 0px 2px 0px #000000,
+	0px 0px 10px rgba(0,0,0,0.15)
+}
+
+.boutoninscr:hover{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    cursor: pointer;
+}
+
+.qinscr{
+    position: absolute;
+    bottom: 20%;
+    left: 130px;
+    color: white;
+    cursor: pointer;
+}
+
+#form-back-co{
+    background-color: rgba(0, 0, 0, 0.49);
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.form-connexion{
+    background-color: #b53131;
+    height: 97.5%;
+    width: 50%;
+    top: 1%;
+    left: 25%;
+    position: fixed;
+    border-style: solid;
+	border-color: rgba(0, 0, 0, 0.415);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.connexion-croix{
+    background: none;
+	outline: none;
+	border: none;
+	cursor: pointer;
+    color: black;
+}
+
+.formconndiv{
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.formconn{
+    display: grid;
+    padding: 5% 10%;
+    height: 79vh;
+    width: 500px;
+    background-color: rgba(0, 0, 0, 0.144);
+    cursor: default;
+}
+
+.formconn input{
+    border-style: none none solid none;
+    border-color: black;
+    outline: none;
+    background: none;
+    color: white;
+    font-weight: bold;
+}
+
+.formconn input::placeholder{
+    color: rgba(255, 255, 255, 0.555);
+}
+
+.boutonconndiv{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.boutonconn{
+    width: 30%;
+    padding: 5px;
+}
+
+.boutonconn:hover{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    cursor: pointer;
+}
